@@ -4,71 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="regist.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/index.css">
   </head>
   <body>
     <div class="container">
-      <div class="img-content">
-        <div>
-          <h2>Book is a window to the world</h2>
-        </div>
-        <img src="/assets/welcome.png" alt="" />
+      <div class="header-menu">
+        <nav>
+          <div class="all">
+            <p>All Categories</p>
+            <p>All Time</p>
+          </div>
+          <div class="search">
+            <input type="search" placeholder="Search book" />
+          </div>
+          <div class="logo">
+            <img src="./assets/bookshelf.png" alt="" />
+            <h4>Library</h4>
+          </div>
+        </nav>
       </div>
-      <div class="login-content">
-        <div class="logo">
-          <img src="/assets/bookshelf.png" alt="" width="80px" />
+      <!-- <div class="side-bar">
+        <img src="./assets/niki.png" alt="">
+        <div class="isi-sidebar">
+            <p>Explore</p>
+            <p>History</p>
+            <p>Add Book*</p>
         </div>
-
-        <div class="semua">
-          <div class="form-all">
-            <div class="form-login">
-              <div class="title">
-                <div>
-                  <div class="login">
-                    <h2>Register</h2>
-                    <p>Welcome Back, Please Register to create account</p>
-                  </div>
-                </div>
-
-                <form action="" class="form">
-                  <div class="input-box">
-                    <div class="input">
-                      <label for="">Username</label><br />
-                      <input type="text" placeholder="Enter Username" />
-                    </div>
-                    <div class="input">
-                      <label for="">Full Name</label><br />
-                      <input type="text" placeholder="Enter Your Full Name" />
-                    </div>
-                    <div class="input">
-                      <label for="">Email</label><br />
-                      <input type="email" placeholder="example@gmail.com" />
-                    </div>
-                    <div class="input">
-                      <label for="">Password</label><br />
-                      <input type="password" placeholder="Enter Password" />
-                    </div>
-                  </div>
-                  <div class="button">
-                    <button type="submit" class="btn-signup">
-                      <a href="index.html">Sign Up</a>
-                    </button>
-                    <button type="submit" class="btn-login">
-                      <a href="/assets/login.html">Login</a>
-                    </button>
-                  </div>
-                </form>
-              </div>
+      </div> -->
+      <div class="content-slider">
+        <div class="book-slider">
+          <div class="book-card">
+            <img src="./assets/dilan.jpg" alt="" class="dilan" />
+            <div class="text-card1">
+                <h4>Dilan 1990</h4>
+                <p>Pidi Baiq</p>
             </div>
           </div>
-          <div class="pr">
-            <p>
-              By signing up, you agree to Book's
-              <span>Terms and Conditions</span> & <span>Privacy Policy</span>
-            </p>
+          <div class="book-card">
+            <img src="./assets/ubur2.png" alt="" class="ubur"/>
+            <div class="text-card2">
+                <h4>Ubur-Ubur Lembur</h4>
+                <p>Raditya Dika</p>
+            </div>
+          </div>
+          <div class="book-card">
+            <img src="./assets/laskar-pelangi.jpg" alt="" class="laskar" />
+            <div class="text-card3">
+                <h4>Laskar Pelangi</h4>
+                <p>Andrea Hirata</p>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="list-book">
+        <h3>List Book</h3>
+        <div class="listbook-content">
+        <div class="card-listbook">
+            <img src="./assets/dilan.jpg" alt="" class="dilan-list">
+            <div class="text-listbook">
+                <h4>Dilan 1990</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quaerat labore quis totam neque dolores, dolorem doloremque quod quisquam commodi minus suscipit possimus provident porro tempore et fuga ab in?</p>
+            </div>
+        </div>
+        <div class="card-listbook">
+            <img src="./assets/bersikap.png" alt="">
+            <div class="text-listbook">
+                <h4>Sebuah Seni Untuk Bersikap Bodo Amat</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae alias vero consectetur qui, dolores eveniet enim, tempore cum, dicta numquam perspiciatis nam commodi veritatis vitae dolore eum. Est, esse maxime.</p>
+            </div>
+        </div>
+        <div class="card-listbook">
+            <img src="./assets/reactnative.png" alt="">
+            <div class="text-listbook">
+                <h4>React Native</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores numquam error consequuntur eius eveniet consectetur, architecto, quisquam voluptatem quaerat eaque omnis rem eos vero dolorem culpa. Facere, odio delectus.</p>
+            </div>
+        </div>
+    </div>
       </div>
     </div>
   </body>
