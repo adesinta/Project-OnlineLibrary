@@ -1,187 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.header-menu{
-    width: 100%;
-    height: 3rem;
+.header-menu {
+  width: 100%;
+  height: 3rem;
 }
 
-.header-menu nav{
-    display: flex;
-    width: 100%;
-    padding: 9px;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.header-menu nav {
+  display: flex;
+  width: 100%;
+  padding: 9px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.all{
-    display: flex;
+.all {
+  display: flex;
 }
 
-.all p{
-    /* padding-top: 0.5rem; */
-    padding-left: 2rem;
+.all p {
+  /* padding-top: 0.5rem; */
+  padding-left: 2rem;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.box-search{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    column-gap: 8px;
-    padding: 3px;
+.box-search {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  column-gap: 8px;
+  padding: 3px;
 }
 
-.search{
-    padding-top: 0.5rem;
-    border-radius: 15px;
-    width: 30rem;
-    height: 2rem;
-    padding: 0 2rem;
-    border: 1px solid black;
-    z-index: 1;
+.search {
+  padding-top: 0.5rem;
+  border-radius: 15px;
+  width: 30rem;
+  height: 2rem;
+  padding: 0 2rem;
+  border: 1px solid  #424242;
+  z-index: 1;
 }
 
-input{
-    /* border-radius: 15px;
+input {
+  /* border-radius: 15px;
     width: 30rem;
     height: 2rem;
     padding: 0 2rem; */
-    /* border: 1px solid black; */
-    width: 100%;
-    border: none;
-    outline: none;
+  /* border: 1px solid black; */
+  width: 100%;
+  border: none;
+  outline: none;
 }
 
-.logo{
-    display: flex;
-    text-align: center;
+.logo {
+  display: flex;
+  text-align: center;
 }
 
-.logo h4{
-    padding-top: 0.5rem;
-    padding-right: 2rem;
-    font-size: 1.3rem;
+.logo h4 {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  font-size: 1.3rem;
 }
 
-.logo img{
-    width: 40px;
-    height: 40px;
+.logo img {
+  width: 40px;
+  height: 40px;
 }
 
-.book-slider{
-    margin-top: 0.2rem;
-    display: flex;
-    justify-content: space-between;
+.book-slider {
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.book-card{
-    padding: 2rem 0;
-    display: grid;
-    position: relative;
+.book-card {
+  padding: 2rem 0;
+  display: grid;
+  position: relative;
 }
 
 .text-card1 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 10rem;
-    background-color: rgba(0, 0, 0, 0.474);
-    width: 30rem;
-    height: 7rem;
-    border-radius: 0 0 12px 12px;
-    color: #ffff;
-    padding-top: 1rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.474);
+  width: 30rem;
+  height: 7rem;
+  border-radius: 0 0 12px 12px;
+  color: #ffff;
+  padding-top: 1rem;
 }
 
-.text-card1 h4{
-    padding: 1rem 0 0.5rem 1.5rem;
+.text-card1 h4 {
+  padding: 1rem 0 0.5rem 1.5rem;
 }
 
-.text-card1 p{
-    padding-left: 1.5rem;
-    font-size: 0.8rem;
+.text-card1 p {
+  padding-left: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .text-card2 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 10rem;
-    background-color: rgba(0, 0, 0, 0.474);
-    width: 30rem;
-    height: 7rem;
-    border-radius: 0 0 12px 12px;
-    color: #ffff;
-    padding-top: 1rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.474);
+  width: 30rem;
+  height: 7rem;
+  border-radius: 0 0 12px 12px;
+  color: #ffff;
+  padding-top: 1rem;
 }
 
-.text-card2 h4{
-    padding: 1rem 0 0.5rem 1.5rem;
+.text-card2 h4 {
+  padding: 1rem 0 0.5rem 1.5rem;
 }
 
-.text-card2 p{
-    padding-left: 1.5rem;
-    font-size: 0.8rem;
+.text-card2 p {
+  padding-left: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .text-card3 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 10rem;
-    background-color: rgba(0, 0, 0, 0.474);
-    width: 30rem;
-    height: 7rem;
-    border-radius: 0 0 12px 12px;
-    color: #ffff;
-    padding-top: 1rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.474);
+  width: 30rem;
+  height: 7rem;
+  border-radius: 0 0 12px 12px;
+  color: #ffff;
+  padding-top: 1rem;
 }
 
-.text-card3 h4{
-    padding: 1rem 0 0.5rem 1.5rem;
+.text-card3 h4 {
+  padding: 1rem 0 0.5rem 1.5rem;
 }
 
-.text-card3 p{
-    padding-left: 1.5rem;
-    font-size: 0.8rem;
+.text-card3 p {
+  padding-left: 1.5rem;
+  font-size: 0.8rem;
 }
 
-.dilan{
-    width: 30rem;
-    height: 15rem;
-    border-radius: 12px;
+.dilan {
+  width: 30rem;
+  height: 15rem;
+  border-radius: 12px;
 }
 
-.ubur{
-    width: 30rem;
-    height: 15rem;
+.ubur {
+  width: 30rem;
+  height: 15rem;
 }
 
-.laskar{
-    display: flex;
-    border-radius: 12px;
-    width: 30rem;
-    height: 15rem;
+.laskar {
+  display: flex;
+  border-radius: 12px;
+  width: 30rem;
+  height: 15rem;
 }
 
-.listbook-content{
-    display: flex;
-    justify-content: space-evenly;
+.list-book h3 {
+  padding-left: 2rem;
 }
 
-.dilan-list{
-    width: 20rem;
-    height: 12rem;
-    border-radius: 12px 12px 0 0;
+.listbook-content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card-listbook {
+  display: grid;
+  /* margin: 1rem; */
+  width: 250px;
+  height: 45vh;
+  font-family: roboto;
+  border-radius: 18px;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(59, 59, 59, 0.338);
+  /* box-shadow: 5px 5px 15px (rgb(0, 0, 0)); */
+  text-align: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card-image {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 11rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* background-size: cover;
+    background-position: center; */
+}
+
+.card-listbook:hover {
+  transform: translateY(-10px);
 }
